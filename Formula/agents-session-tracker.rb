@@ -1,8 +1,8 @@
 class AgentsSessionTracker < Formula
   desc "Raycast-style tracker for Claude Code / Codex sessions (menubar + CLI)"
   homepage "https://github.com/cms5380/agents-session-tracker"
-  url "https://github.com/cms5380/agents-session-tracker/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "a007a1d6993ff1895d23621b5b7093a39f99179aca02d04cad2ef37ebe167203"
+  url "https://github.com/cms5380/agents-session-tracker/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "d3e4f177466fdaee4777fa3e95654fa6f7e3944c03895fdf224648feeded1cf9"
   license "MIT"
 
   depends_on "jq"
