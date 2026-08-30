@@ -1,8 +1,8 @@
 class AgentsSessionTracker < Formula
   desc "Raycast-style tracker for Claude Code / Codex sessions (menubar + CLI)"
   homepage "https://github.com/cms5380/agents-session-tracker"
-  url "https://github.com/cms5380/agents-session-tracker/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "d61d624b48a5df4148f6a2164fc99e9798e6b1b2c602ebd82feb49f5f5dc0071"
+  url "https://github.com/cms5380/agents-session-tracker/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "096f37b873791c37ce78ac0b3aab085654811d40aa596b0ceed90eeb65b64672"
   license "MIT"
 
   depends_on "jq"
@@ -29,6 +29,6 @@ class AgentsSessionTracker < Formula
   end
 
   test do
-    assert_predicate libexec/"bin/cst", :exist?
+    assert_predicate libexec/"bin/ast", :exist?
   end
 end
